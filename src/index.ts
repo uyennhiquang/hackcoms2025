@@ -1,3 +1,3 @@
-import { Graph } from "./view/graph";
+import "../assets/style/style.css";
 
-Graph.hello();
+console.log("hello, world!");
