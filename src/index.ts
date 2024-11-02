@@ -1,3 +1,3 @@
-import { Graph } from "./view/graph";
+import { Graph } from "./model/graph";
 
 Graph.hello();
