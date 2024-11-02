@@ -1,1 +1,3 @@
-console.log("hello, world!");
+import { Graph } from "./view/graph";
+
+Graph.hello();
