@@ -5,6 +5,45 @@
     <title>Getting Started</title>
   </head>
   <body>
-    <script src="bundle.js"></script>
+    
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onceuponotaku</title>
+</head>
+<body>
+    <h1>Anime Data Tracker</h1>
+    <h2>Genres</h2>
+    <div class="dropdown">
+      <button onclick="dropdownMenu()" class="dropbtn">Sorts</button>
+
+      <script>
+        function dropdownMenu() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+      </script>
+      
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Genres</a>
+        <a href="#">Voice Actors</a>
+        <a href="#">Studios</a>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">Sports</div>
+      <div class="grid-item">Seinen</div>
+      <div class="grid-item">Shonen</div>
+      <div class="grid-item">Romance</div>
+      <div class="grid-item">Mystery</div>
+      <div class="grid-item">Horror</div>
+    </div>
+    
+</body>
+</html>
   </body>
+  <script src="bundle.js"></script>
 </html>
