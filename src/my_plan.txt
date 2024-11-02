@@ -1,0 +1,6 @@
+- on our webstite we display an anime list of what we've watched
+ex: frieren, full metal alchemist: brotherhood, steins gate, attack on titan, gintama
+- in our "backend" we have a list of the myanimelist(MAL) ids for that anime
+ex: 52991, 5114, 9253, 38524, 28977
+    - we should keep both lists hardcoded for now 
+    - i have two lists because on jikan(the api) we cant search up anime information by anime name, we can only look up the anime by its id on MAL
