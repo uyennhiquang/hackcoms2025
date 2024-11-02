@@ -6,3 +6,5 @@ class Anime {
   voiceActors: string[];
   genre: string[];
 }
+
+export { Anime }
