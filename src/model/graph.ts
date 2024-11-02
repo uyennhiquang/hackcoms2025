@@ -10,7 +10,7 @@ class Graph <Type> {
   }
 
   add(id: number, value: Type) {
-    const vertex = new Vertex<>(value);
+    const vertex = new Vertex<Type>(value);
     this.vertices[id] = vertex;
 
   }
